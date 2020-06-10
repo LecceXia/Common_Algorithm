@@ -1,6 +1,7 @@
 # Common_Algorithm
 
 Some interesting algorithms  
+
 ### Binary_Search
 if you want to Find value = target
 
@@ -19,3 +20,20 @@ int find(int[] array,int target){
   }
   return -1;
 }
+```
+
+### Backtracking
+
+
+### Dynamic Programming
+
+
+### Greedy Algorithm
+
+
+### Branch and Bound
+
+
+### Divide and Conquer
+
+
