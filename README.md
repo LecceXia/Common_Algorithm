@@ -1,8 +1,10 @@
 # Common_Algorithm
 
+Some interesting algorithms  
 ### Binary_Search
-if 
+if you want to Find value = target
 
+```java
 array=[2,4,5,6,9] target=6
 
 int find(int[] array,int target){
