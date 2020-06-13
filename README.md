@@ -39,10 +39,26 @@ If we only want one solution, we can end when we get one solution.
 ### *Algorithm Framework*  
 Suppose the solution of the problem is an n-dimensional vector (a1, a2, ..., an), and the constraint is that ai (i = 1, 2, 3, ..., n) satisfies a certain condition, denoted as f (ai).  
 1.  Non-recursive  
+2.  Recursive
 ```
-int a[n],i;
-i=1; 
-while(i>0 and )
+int a[n];
+try(int i)
+{
+    if(i>n)
+       // input the result;
+     else
+    {
+       for(j = ; j <= ; j++)  // enumerate all the possible paths
+       {
+           if(condition(j))                 // meet the condition
+             {
+                a[i] = j;
+              ...                         // other operations
+                try(i+1);
+              }
+         }
+     }
+}
 ```
 ## Dynamic Programming
 
