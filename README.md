@@ -60,8 +60,9 @@ try(int i)
      }
 }
 ```
-## Dynamic Programming
+## Dynamic Programming  
 
+Every decision is made on the current state, I think it is just like HMM(Hidden Markov Model)
 
 ## Greedy Algorithm
 
