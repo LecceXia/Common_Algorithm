@@ -62,7 +62,29 @@ try(int i)
 ```
 ## Dynamic Programming  
 
-Every decision is made on the current state, I think it is just like HMM(Hidden Markov Model)
+Every decision is made on the current state, I think it is just like HMM(Hidden Markov Model)  
+  
+what we should pay attention to:
+1.  the stage of the problem
+2.  the state of every stage
+3.  The recursive relationship between the transformation from the previous stage to the latter stage
+
+### example1: Fibonacci sequence
+```
+int fibo(int n){
+  if(n=0) return 0;
+  if(n=1) return 1;
+  else{
+    int[] result=new int[n+1];
+    result[0]=0;
+    result[1]=1;
+    for(int=2;i<=n;i++){
+      result[i]=reuslt[i-1]+result[i-2];
+    }
+    return result[n];
+  }
+}
+```
 
 ## Greedy Algorithm
 
