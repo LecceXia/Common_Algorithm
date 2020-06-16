@@ -98,6 +98,6 @@ For example, we are now on the 6th stair, so we can only jump to this stair from
 ## Branch and Bound
 
 
-### Divide and Conquer
+## Divide and Conquer
 
 
