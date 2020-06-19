@@ -90,8 +90,6 @@ You can only jump one or two steps at a time. There are several ways to jump to 
 For the nth step, you can only jump from the n-1 or n-2 steps which means f(n)=f(n-1)+f(n-2). So this is the same as Fibonacci sequence.  
 For example, we are now on the 6th stair, so we can only jump to this stair from 6-2=4th stair or 6-1=5th stair which means f(6)=f(4)+f(5).(this question is equal to "How many ways to fill a 2*n rectangle with 2*1 rectangle", because we can use 2*1 to fill or use 1*2 to fill) 
 
-### example 3: Array maximum discontinuously increasing subsequence
-
 ## Greedy Algorithm
 
 
