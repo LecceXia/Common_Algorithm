@@ -69,7 +69,7 @@ what we should pay attention to:
 2.  the state of every stage
 3.  The recursive relationship between the transformation from the previous stage to the latter stage
 
-### example 1: Fibonacci sequence
+### Example 1: Fibonacci sequence
 ```
 int fibo(int n){
   if(n=0) return 0;
@@ -85,10 +85,25 @@ int fibo(int n){
   }
 }
 ```
-### example 2: Stair Jumps 
+### Example 2: Stair Jumps 
 You can only jump one or two steps at a time. There are several ways to jump to n steps  
 For the nth step, you can only jump from the n-1 or n-2 steps which means f(n)=f(n-1)+f(n-2). So this is the same as Fibonacci sequence.  
 For example, we are now on the 6th stair, so we can only jump to this stair from 6-2=4th stair or 6-1=5th stair which means f(6)=f(4)+f(5).(this question is equal to "How many ways to fill a 2*n rectangle with 2*1 rectangle", because we can use 2*1 to fill or use 1*2 to fill) 
+
+### Example 3: Knapsack problem
+The total capacity of a backpack is V, and now there are N items, the weight of the i item is weight[i], and the value is value[i]
+Then, how to load things into the backpack can maximize the total value of the items in the bag. There are three main ways to load items here:  
+1.  0-1 backpack: each item can only be loaded at most once  
+2.  Multiple backpacks: each category has a limit on the number of items, the category i can be loaded up to num[i] times  
+3.  Complete backpack: each item can be packed into the bag an unlimited number of times  
+
+#### 0-1 backpack
+dp[i][j] represents the maximum value of the sum of the value of the first i items that can be loaded into a backpack of capacity j  
+##### (The most important thing in dynamic programming is to find the state transfer equation)  
+
+  
+
+
 
 ## Greedy Algorithm
 
